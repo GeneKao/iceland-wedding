@@ -4,11 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 header {
-  padding: 156px 0 100px;
+  padding: 200px 150px;
+  /* opacity: 0.8; */
 
   /* The image used */
-  /* background-image: url("http://www.visitnorwich.co.uk/assets/Uploads/Events-images/Theatre-generic.jpg"); */
-  background-image: url("img/background.jpg");
+  background-image: linear-gradient(
+      rgba(100, 100, 100, 0.6),
+      rgba(100, 100, 100, 0.6)
+    ), url("../img/background.jpg");
 
   /* Full height */
   /* height: 50%; */
