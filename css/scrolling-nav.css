@@ -5,8 +5,22 @@
  */
 header {
   padding: 156px 0 100px;
+
+  /* The image used */
+  /* background-image: url("http://www.visitnorwich.co.uk/assets/Uploads/Events-images/Theatre-generic.jpg"); */
+  background-image: url("img/background.jpg");
+
+  /* Full height */
+  /* height: 50%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 section {
   padding: 150px 0;
+
 }
