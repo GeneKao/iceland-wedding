@@ -24,13 +24,14 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 100px 0;
 
 }
 
 h2 {
     width: 100%;
     text-align:center;
+    font-style: italic;
 }
 
 a {
@@ -67,12 +68,21 @@ ul{
     padding: 0px;
 }
 .event-list > li {
-    background-color: rgb(247, 247, 47);
+    background-color: rgb(247, 247, 247);
     box-shadow: 0px 0px 0px rgb(51, 51, 51);
     box-shadow: 0px 0px 0px rgba(51, 51, 51, 0.3);
     padding: 100px;
-    margin: 0px 0px 300px;
+    margin: 0px 0px 250px;
 }
+
+.event-list > li.wedding {
+    margin: 0px 0px 400px;
+}
+
+.event-list > li.trip {
+    margin: 0px 0px 180px;
+}
+
 .event-list > li > time {
     display: inline-block;
     width: 100%;
@@ -135,12 +145,13 @@ ul{
         float: left;
     } */
     .event-list-img{
-        width: 190px;
+        width: 180px;
         /* height: 100px; */
         float: left;
+        clear: left;
     }
     .event-list > li > .info {
-        background-color: rgb(255, 255, 255);
+        /* background-color: rgb(255, 255, 255); */
         overflow: hidden;
     }
     .event-list > li > time,
@@ -152,7 +163,7 @@ ul{
     } */
     .event-list > li > .info {
         position: relative;
-        height: 300px;
+        height: 460px;
         text-align: left;
         padding-right: 40px;
         padding-left: 40px;
@@ -170,3 +181,46 @@ ul{
 }
 
 
+
+html,
+body{
+  padding: 0;
+  margin: 0;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.content{
+  /* height: calc(100vh - 100px); */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: rgb(230, 242, 243);
+  overflow: hidden;
+  margin: 0px 0px 20px;
+}
+
+.content > div{
+  flex: 1;
+  width: 100%;
+}
+
+.contact{
+    /* height: calc(100vh - 100px); */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: rgb(247, 247, 247);
+    overflow: hidden;
+    margin: 0px 0px 20px;
+  }
+  
+.contact > div{
+flex: 1;
+width: 100%;
+}
