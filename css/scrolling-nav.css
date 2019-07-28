@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 header {
-  padding: 200px 150px;
+  padding: 300px 10px;
   /* opacity: 0.8; */
 
   /* The image used */
@@ -28,11 +28,30 @@ section {
 
 }
 
+h2 {
+    width: 100%;
+    text-align:center;
+}
+
+a {
+    color: hotpink;
+  }
+
+.pcenter {
+    width: 100%;
+    text-align:center;
+}
+
+ul{
+    list-style-type:disc;
+}
+
+.section-background{
+    background-color: rgb(247, 247, 247) !important;
+}
 
 
-
-
-@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css");
 
 /* source code from https://bootsnipp.com/snippets/kMRrW */
@@ -43,16 +62,16 @@ section {
 
 .event-list {
     list-style: none;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Tangerine', serif;
     margin: 0px;
     padding: 0px;
 }
 .event-list > li {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 5px rgb(51, 51, 51);
-    box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.3);
-    padding: 0px;
-    margin: 0px 0px 20px;
+    background-color: rgb(247, 247, 47);
+    box-shadow: 0px 0px 0px rgb(51, 51, 51);
+    box-shadow: 0px 0px 0px rgba(51, 51, 51, 0.3);
+    padding: 100px;
+    margin: 0px 0px 300px;
 }
 .event-list > li > time {
     display: inline-block;
@@ -81,9 +100,9 @@ section {
     font-weight: 900;
     line-height: 1;
 }
-.event-list > li > img {
+/* .event-list > li > img {
     width: 100%;
-}
+} */
 .event-list > li > .info {
     padding-top: 5px;
     text-align: center;
@@ -107,12 +126,17 @@ section {
         padding: 0px;
     }
     .event-list > li > time,
-    .event-list > li > img  {
+    /* .event-list > li > img  {
         display: inline-block;
-    }
+    } */
     .event-list > li > time,
-    .event-list > li > img {
-        width: 80px;
+    /* .event-list > li > img {
+        width: 100px;
+        float: left;
+    } */
+    .event-list-img{
+        width: 190px;
+        /* height: 100px; */
         float: left;
     }
     .event-list > li > .info {
@@ -120,26 +144,29 @@ section {
         overflow: hidden;
     }
     .event-list > li > time,
-    .event-list > li > img {
-        width: 80px;
-        height: 80px;
+   /*  .event-list > li > img {
+        width: 180px;
+        height: 180px;
         padding: 0px;
         margin: 0px;
-    }
+    } */
     .event-list > li > .info {
         position: relative;
-        height: 80px;
+        height: 300px;
         text-align: left;
         padding-right: 40px;
+        padding-left: 40px;
     }
     .event-list > li > .info > .title,
     .event-list > li > .info > .desc {
-        padding: 0px 10px;
+        padding: 10px 10px;
     }
-    .event-list > li > .info > ul {
+    /* .event-list > li > .info > ul {
         position: absolute;
         left: 0px;
         bottom: 0px;
     }
-
+ */
 }
+
+
